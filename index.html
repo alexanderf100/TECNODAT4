@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Git commands</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src='./js/main.js'></script>
+</head>
+<body>
+    <h1>Git commands practice by Marcelo Vasquez</h1>
+    <p> It show a command list to apply in git bash </p>
+  
+    <a>Getting Started - First-Time Git Setup:</a>
+    <button onclick="libro()"  class="btn btn-primary ">Git Manual</button>
+    <p id="demostracion"> It show a command list to apply in git bash </p>
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>COMANDS</th>
+            <th>HOW TO USE?</th>
+            <th>Team</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>pwd</td>
+            <td>Show the folder that I have the project</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>git clone "url repository"</td>
+            <td>Create a copy from the repository project </td>
+            <td>Local Branch</td>
+          </tr>
+          <tr >
+            <td>3</td>
+            <td>git status </td>
+            <td>Show it the pending Changes status of the branch </td>
+            <td>Local Branch</td>
+          </tr>
+          <tr class="active-row">
+            <td>4</td>
+            <td>git add </td>
+            <td>This one traked on the stage of git</td>
+            <td>Local Branch</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>git commit -m "Publicacion V 1.0"</td>
+            <td>Save the commit changes on the branch </td>
+            <td>Local Branch</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>git checkout 'Desarrollo</td>
+            <td>It will use when you need to change to other branch</td>
+            <td>Local Branch</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>git pull origin 'Desarrollo'</td>
+            <td>It allow you get all changes save in the local branch</td>
+            <td>Remote Branch</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>git merge 'branchsM'</td>
+            <td>Create a fusion of both branchs with all changes</td>
+            <td>Remote Branch</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>git push -u origin Desarrollo</td>
+            <td>It permit upload all changes save into the local branch</td>
+            <td>Remote Branch</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>git log  -u origin Desarrollo</td>
+            <td>It permit upload all changes save into the local branch</td>
+            <td>Remote Branch</td>
+          </tr>
+
+          <tr>
+            <td>NOTE:</td>
+            <td>When you need to save a commit: that's the rigth process</td>
+            <td>If you don't assign a name you need to specify when git (Vim) sent a message</td>
+            <td>Shift ZZ to Save Changes</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
